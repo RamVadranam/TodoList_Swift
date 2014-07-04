@@ -13,6 +13,7 @@
 		805231E91964544600AFC75C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805231E71964544600AFC75C /* Main.storyboard */; };
 		805231EB1964544700AFC75C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805231EA1964544700AFC75C /* Images.xcassets */; };
 		805231F71964544A00AFC75C /* To_Do_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805231F61964544A00AFC75C /* To_Do_ListTests.swift */; };
+		805232031964558E00AFC75C /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805232021964558E00AFC75C /* TaskManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		805231F01964544A00AFC75C /* To Do ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "To Do ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		805231F51964544A00AFC75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		805231F61964544A00AFC75C /* To_Do_ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_Do_ListTests.swift; sourceTree = "<group>"; };
+		805232021964558E00AFC75C /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				805231E11964544600AFC75C /* AppDelegate.swift */,
 				805231E31964544600AFC75C /* FirstViewController.swift */,
 				805231E51964544600AFC75C /* SecondViewController.swift */,
+				805232021964558E00AFC75C /* TaskManager.swift */,
 				805231E71964544600AFC75C /* Main.storyboard */,
 				805231EA1964544700AFC75C /* Images.xcassets */,
 				805231DF1964544500AFC75C /* Supporting Files */,
@@ -213,6 +216,7 @@
 			files = (
 				805231E61964544600AFC75C /* SecondViewController.swift in Sources */,
 				805231E21964544600AFC75C /* AppDelegate.swift in Sources */,
+				805232031964558E00AFC75C /* TaskManager.swift in Sources */,
 				805231E41964544600AFC75C /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +334,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "To Do List/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -341,6 +346,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "To Do List/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -401,6 +407,7 @@
 				805231FC1964544B00AFC75C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		805231FD1964544B00AFC75C /* Build configuration list for PBXNativeTarget "To Do ListTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +416,7 @@
 				805231FF1964544B00AFC75C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
